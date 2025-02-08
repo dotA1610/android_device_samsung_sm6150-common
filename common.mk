@@ -172,10 +172,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@4.0.vendor \
     vendor.display.config@2.0.vendor
 
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
@@ -464,10 +460,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v30.so
-
-# VNDK-SP
-PRODUCT_PACKAGES += \
-    vndk_package
 
 # Wifi
 PRODUCT_PACKAGES += \
