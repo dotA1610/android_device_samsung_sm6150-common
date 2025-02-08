@@ -199,7 +199,9 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/root/fstab.qcom
 BOARD_ROOT_EXTRA_FOLDERS := efs metadata
 
 # Releasetools
+ifeq ($(filter a70q,$(TARGET_DEVICE)),)
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_sm6150
+endif
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # RIL
