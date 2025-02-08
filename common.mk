@@ -154,8 +154,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    gralloc.sm6150 \
-    hwcomposer.sm6150 \
     libdisplayconfig.qti \
     libqdMetaData \
     libion \
@@ -163,7 +161,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libtinyxml2 \
     libvulkan \
-    memtrack.sm6150 \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@1.0.vendor \
     vendor.qti.hardware.display.mapper@1.1.vendor \
@@ -305,14 +302,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libgui_vendor \
-    libOmxAacEnc \
-    libOmxAmrEnc \
     libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
     libOmxVdec \
-    libOmxVenc \
     libOmxVidcCommon \
     libstagefrighthw
 
